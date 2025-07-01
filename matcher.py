@@ -50,7 +50,7 @@ def find_best_si_match(literal_english, si_translation):
 from data_loader import load_quran_data
 from matcher import find_matching_ayah, find_fragment_positions, find_best_si_match
 
-quran_data = load_quran_data('quran_dataset.json')
+quran_data = load_quran_data()
 
 # Example Input
 arabic_fragment = input("Enter Arabic Fragment: ")
